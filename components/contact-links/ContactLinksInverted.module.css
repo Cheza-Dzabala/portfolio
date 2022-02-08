@@ -1,0 +1,15 @@
+.container {
+	@apply w-10  h-full flex flex-col justify-end items-center space-y-36 pb-24;
+}
+
+.email {
+	@apply rotate-270 text-xs text-primary;
+}
+
+.separator {
+	@apply h-44 w-0.5 bg-white;
+}
+
+.links {
+	@apply flex flex-col space-y-5;
+}
