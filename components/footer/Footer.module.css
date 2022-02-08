@@ -1,0 +1,3 @@
+.container {
+	@apply h-60 flex flex-col items-center justify-center bg-secondary bottom-0 text-[#C4C4C4] text-center;
+}
