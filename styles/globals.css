@@ -13,6 +13,10 @@
 	}
 
 	.wrapper {
-		@apply w-screen h-screen overflow-x-hidden;
+		@apply w-screen h-screen overflow-x-hidden overflow-y-scroll;
+	}
+
+	.section {
+		@apply flex flex-col w-full h-full px-10;
 	}
 }

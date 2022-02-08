@@ -12,6 +12,9 @@ module.exports = {
 				primary: '#0D2D57',
 				secondary: '#F5F5F5',
 			},
+			rotate: {
+				270: '270deg',
+			},
 		},
 	},
 	plugins: [],
