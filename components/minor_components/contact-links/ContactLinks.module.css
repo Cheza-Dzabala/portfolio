@@ -3,11 +3,11 @@
 }
 
 .email {
-	@apply rotate-270 text-xs text-primary;
+	@apply rotate-270 text-xs text-[#DCDCDC];
 }
 
 .separator {
-	@apply h-44 w-0.5 bg-white;
+	@apply h-16 w-0.5 bg-white;
 }
 
 .links {

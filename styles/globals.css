@@ -6,6 +6,10 @@
 	font-family: 'Poppins';
 	src: url(/fonts/Poppins-Regular.ttf) format('ttf');
 }
+@font-face {
+	font-family: 'Avenir';
+	src: url(/fonts/Avenir.ttc) format('ttc');
+}
 
 @layer components {
 	body {
@@ -17,6 +21,14 @@
 	}
 
 	.section {
-		@apply flex flex-col w-full h-full px-10;
+		@apply flex flex-row w-screen h-screen p-10;
+	}
+
+	.section h1 {
+		@apply text-4xl font-semibold font-avenir;
+	}
+
+	.sectionContent {
+		@apply flex flex-col px-10;
 	}
 }
