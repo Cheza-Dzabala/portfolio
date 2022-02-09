@@ -1,19 +1,20 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
-import ContactLinks from '../components/contact-links/ContactLinks.module';
-import styles from '../styles/Home.module.css';
+import Blog from '../components/sections/Blog/Blog.module';
+import Contact from '../components/sections/Contact/Contact.module';
+import Landing from '../components/sections/Landing/Landing.module';
+import Projects from '../components/sections/Projects/Projects.module';
 
 const Home: NextPage = () => {
 	return (
-		<div className={`section bg-primary`}>
+		<div className="flex flex-col">
 			<Head>
-				<title>Cheza</title>
-				<link rel="icon" href="/favicon.ico" />
+				<title>Cheza | Welcome</title>
 			</Head>
-
-			<ContactLinks />
-			<div className="sectionContent"></div>
+			<Landing />
+			<Projects />
+			<Blog />
+			<Contact />
 		</div>
 	);
 };
