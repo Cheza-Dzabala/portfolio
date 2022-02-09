@@ -1,0 +1,21 @@
+.landingContainer {
+	@apply px-32 space-y-10 text-white;
+}
+.quote {
+	@apply w-full flex flex-col items-end text-right text-[#DCDCDC] space-y-4 border-l-2;
+}
+
+.quote h1 {
+	@apply font-poppins font-light text-3xl;
+}
+.quote p {
+	@apply text-xl;
+}
+
+.workHistory {
+	@apply w-full flex flex-col items-end;
+}
+
+.invocation {
+	@apply space-y-10;
+}
