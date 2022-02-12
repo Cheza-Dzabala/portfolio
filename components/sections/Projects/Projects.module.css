@@ -1,0 +1,28 @@
+.projectsContainer {
+	@apply px-32 space-y-10 text-white;
+}
+.projects {
+	@apply w-full flex flex-wrap justify-between;
+}
+
+.projectItem {
+	@apply p-4 flex space-x-5 w-5/12 mb-10;
+}
+
+.projectTitle {
+	@apply text-lg text-primary;
+}
+.projectDescription {
+	@apply text-[#A6A6A6] text-xs;
+}
+
+.technologies {
+	@apply flex space-x-4 text-xs flex-wrap;
+}
+.techItem {
+	@apply bg-primary text-white p-2 rounded-md mb-4;
+}
+
+.image {
+	@apply shadow-lg rounded-full h-20 w-20 cursor-pointer;
+}

@@ -13,7 +13,7 @@
 }
 
 .workHistory {
-	@apply w-full flex flex-col items-end;
+	@apply w-1/3 flex flex-col items-end self-end border-l-2 border-[#2663B4] pl-6;
 }
 
 .invocation {

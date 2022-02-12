@@ -1,4 +1,4 @@
-interface workHistory {
+export interface workHistory {
 	company: string;
 	jobDescription: string;
 	order: number;
