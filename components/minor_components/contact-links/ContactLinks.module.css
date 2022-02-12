@@ -1,5 +1,5 @@
 .container {
-	@apply w-10  h-full flex flex-col justify-end items-center space-y-36 pb-24;
+	@apply w-10  h-screen flex flex-col justify-center items-center space-y-36 pb-24;
 }
 
 .email {

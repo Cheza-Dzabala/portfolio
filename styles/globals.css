@@ -13,7 +13,7 @@
 
 @layer components {
 	body {
-		@apply font-poppins;
+		@apply font-poppins select-none scroll-smooth;
 	}
 
 	.wrapper {
@@ -21,14 +21,18 @@
 	}
 
 	.section {
-		@apply flex flex-row w-screen h-screen p-10;
+		@apply flex flex-row w-screen  p-10;
 	}
 
 	.section h1 {
-		@apply text-4xl font-semibold font-avenir;
+		@apply text-4xl font-semibold;
 	}
 
 	.sectionContent {
 		@apply flex flex-col px-10;
+	}
+
+	.progress-icon {
+		@apply fixed top-20 left-20 w-16 h-16;
 	}
 }

@@ -9,3 +9,7 @@
 .nav {
 	@apply w-2/3 flex justify-end space-x-10 text-sm;
 }
+
+.navItem {
+	@apply uppercase text-xs;
+}
