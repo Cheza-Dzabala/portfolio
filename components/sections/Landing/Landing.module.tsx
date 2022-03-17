@@ -7,7 +7,7 @@ import { workHistory } from './data/work_history';
 import Selected from './selected';
 import Unselected from './unselected';
 import { programmingLanguages } from './data/languages';
-import Image from 'next/image';
+import { Image } from '../../../loaders/image.loader';
 import { motion } from 'framer-motion';
 
 interface Props {}

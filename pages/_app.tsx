@@ -4,7 +4,7 @@ import Header from '../components/minor_components/header/Header.module';
 import Footer from '../components/minor_components/footer/Footer.module';
 import { useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
+import { Image } from '../loaders/image.loader';
 import { motion } from 'framer-motion';
 
 function MyApp({ Component, pageProps }: AppProps) {

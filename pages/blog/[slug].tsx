@@ -1,11 +1,14 @@
 import React, { useEffect, useRef } from 'react';
 import styles from './index.module.css';
 import { motion } from 'framer-motion';
+import router from 'next/router';
 
 interface Props {}
 
 function BlogPage(props: Props) {
 	const {} = props;
+	const { slug } = router.query;
+	console.log({ slug });
 	const docRef = useRef() as React.MutableRefObject<HTMLDivElement>;
 	const scroll = () => docRef.current.scrollTo(0, 0);
 	useEffect(() => {

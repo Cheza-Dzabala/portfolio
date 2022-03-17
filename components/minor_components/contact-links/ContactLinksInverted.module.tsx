@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './ContactLinksInverted.module.css';
-import Image from 'next/image';
+import { Image } from '../../../loaders/image.loader';
 import { linksInverted } from './links.interface';
 import { motion } from 'framer-motion';
 

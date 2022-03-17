@@ -2,7 +2,6 @@ import React from 'react';
 import ContactLinksInverted from '../../minor_components/contact-links/ContactLinksInverted.module';
 import styles from './Projects.module.css';
 import { projects } from './data/projects';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 
 interface Props {}
