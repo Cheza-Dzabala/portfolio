@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import styles from './Header.module.css';
+import Link from 'next/link';
 
 interface Props {}
 
@@ -32,7 +33,10 @@ function Header(props: Props) {
 
 	return (
 		<div className={styles.container}>
-			<p className={styles.banner}>Cheza.</p>
+			<Link href="/" passHref>
+				<p className={styles.brand}>Cheza.</p>
+			</Link>
+
 			<ul className={styles.nav}>
 				{links.map((link, index) => (
 					<motion.li
@@ -50,7 +54,11 @@ function Header(props: Props) {
 						}}
 						className={styles.navItem}
 					>
-						<motion.a>{link.name}</motion.a>
+						<Link href={link.link} passHref>
+							<motion.a className={styles.link}>
+								{link.name}
+							</motion.a>
+						</Link>
 					</motion.li>
 				))}
 			</ul>

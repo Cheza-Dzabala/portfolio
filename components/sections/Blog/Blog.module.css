@@ -1,0 +1,22 @@
+.blogContainer {
+	@apply px-32 space-y-10 text-white w-full;
+}
+
+.blogTile {
+	@apply flex flex-col text-white w-full space-y-5;
+}
+
+.blogTile h1 {
+	@apply text-base w-full font-medium capitalize  cursor-pointer;
+}
+
+.blogTile p {
+	@apply font-light text-sm;
+}
+.blogTile a {
+	@apply text-xs;
+}
+
+.tag {
+	@apply p-2 bg-white rounded-md my-2 hover:bg-[#2B6FC9] hover:text-white cursor-pointer;
+}

@@ -1,0 +1,29 @@
+.container {
+	@apply h-full bg-gray-50;
+}
+
+.summary {
+	@apply h-[50%]  p-10 bg-primary text-white;
+}
+
+.summaryContainer {
+	@apply w-full h-80 flex flex-col relative;
+}
+.summaryImage {
+	@apply w-full h-64 bg-gray-200 rounded-md flex items-end justify-end overflow-visible px-10;
+}
+
+.summaryImageOverlay {
+	@apply max-w-[20%] bg-primary rounded-md shadow-md right-5 bottom-0 absolute bg-opacity-90;
+}
+
+.summaryImageOverlayText {
+	@apply w-full h-full flex flex-col font-bold p-5 justify-evenly space-y-10;
+}
+
+.summaryImageOverlayTextTitle {
+	@apply text-lg;
+}
+.summaryImageOverlayTextDate {
+	@apply text-xs self-end font-light;
+}

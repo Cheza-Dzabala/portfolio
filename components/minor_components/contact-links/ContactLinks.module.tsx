@@ -10,7 +10,7 @@ function ContactLinks(props: Props) {
 	const {} = props;
 
 	return (
-		<motion.div
+		<motion.aside
 			initial="hidden"
 			whileInView="visible"
 			transition={{ duration: 1 }}
@@ -50,7 +50,7 @@ function ContactLinks(props: Props) {
 					))}
 				</ul>
 			</div>
-		</motion.div>
+		</motion.aside>
 	);
 }
 

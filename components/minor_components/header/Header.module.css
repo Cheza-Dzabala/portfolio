@@ -3,7 +3,7 @@
 }
 
 .brand {
-	@apply w-1/3;
+	@apply cursor-pointer;
 }
 
 .nav {
@@ -12,4 +12,8 @@
 
 .navItem {
 	@apply uppercase text-xs;
+}
+
+.link {
+	@apply cursor-pointer;
 }

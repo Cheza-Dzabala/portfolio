@@ -19,11 +19,11 @@ function Landing(props: Props) {
 	return (
 		<div className={`section bg-primary`}>
 			<ContactLinks />
-			<div className={`sectionContent ${styles.landingContainer}`}>
+			<main className={`sectionContent ${styles.landingContainer}`}>
 				<Quote />
 				<Invocation />
 				<div className="flex flex-row justify-between ">
-					<div className="w-2/3 flex flex-col">
+					<article className="w-2/3 flex flex-col">
 						<p className="text-lg font-light mb-10">About Me.</p>
 						<div className="flex w-full mb-2">
 							<div className="w-48 pl-2 pt-2 rounded-xl  border-l-4 border-t-4">
@@ -82,7 +82,7 @@ function Landing(props: Props) {
 								);
 							})}
 						</div>
-					</div>
+					</article>
 					<div className={`${styles.workHistory}`}>
 						<p className="text-lg font-light mb-10">Work History</p>
 						<ul className="space-y-5">
@@ -110,7 +110,7 @@ function Landing(props: Props) {
 						</ul>
 					</div>
 				</div>
-			</div>
+			</main>
 		</div>
 	);
 }

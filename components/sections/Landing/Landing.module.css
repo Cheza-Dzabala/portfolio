@@ -1,5 +1,5 @@
 .landingContainer {
-	@apply px-32 space-y-10 text-white;
+	@apply px-32 flex flex-col space-y-20 text-white;
 }
 .quote {
 	@apply w-full flex flex-col items-end text-right text-[#DCDCDC] space-y-4 border-l-2;

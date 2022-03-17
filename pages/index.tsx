@@ -17,7 +17,7 @@ const Home: NextPage = () => {
 		<>
 			<div className="flex flex-col">
 				<Head>
-					<title>Cheza | Welcome</title>
+					<title>Macheza Dzabala</title>
 				</Head>
 				<Landing />
 				<Projects />
